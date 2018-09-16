@@ -4,25 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio</title>
-  <!-- <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"> -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
 
   <header>
-    <h1>Andy Hyon</h1>
+    <h1 id="name">Andy Hyon</h1>
     <nav>
-      <a href="./index.html">About</a>
-      <a href="./portfolio.html">Portfolio</a>
-      <a href="./contact.html">Contact</a>
+      <a class="nav-links" href="./index.html">About</a>
+      <a class="nav-links" id="link-border" href="./portfolio.html">Portfolio</a>
+      <a class="nav-links" href="./contact.html">Contact</a>
     </nav>
   </header>
 
   <main>
-    <h1>Portfolio</h1>
-
-    <hr>
+    <h1 id="main-h1">Portfolio</h1>
 
     <img src="./assets/images/portfolio01.png" alt="Morgenstern Ice Cream"/>
     <p>Ice Cream</p>
@@ -44,15 +42,16 @@
   <div class="connect">
     <h2>Connect with Me</h2>
 
-    <hr>
+    <div class="connect-icon-container">
+      <a href="https://github.com/andyhyon"><img class="connect-icon" src="./assets/images/github.png"></a>
+      <a href="https://www.linkedin.com/in/andy-hyon-31b447b5/"><img class="connect-icon" src="./assets/images/linkedin.png"></a>
+      <a href="https://www.instagram.com/hyontography/"><img class="connect-icon" src="./assets/images/instagram.png"></a>
+    </div>
 
-    <a href="https://github.com/andyhyon">GitHub</a>
-    <a href="https://www.linkedin.com/in/andy-hyon-31b447b5">LinkedIn</a>
-    <a href="https://www.instagram.com/hyontography">Instagram</a>
   </div>
 
   <footer>
-    <p>
+    <p id="footer-text">
       &copy; 2018 Andy Hyon
     </p>
   </footer>

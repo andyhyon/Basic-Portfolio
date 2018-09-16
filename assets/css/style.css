@@ -147,3 +147,36 @@ h2 {
   margin: 0 auto;
   text-align: center;
 }
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#form-name,
+#form-email,
+#form-message {
+  display: inline-block;
+  margin-bottom: 20px;
+  height: 30px;
+  line-height: 30px;
+  width: 98%;
+  padding-left: 10px;
+}
+
+::placeholder {
+  opacity: 0.5;
+}
+
+#form-message {
+  padding: 0 0 300px 10px;
+}
+
+#form-submit {
+  margin-bottom: 20px;
+  background-color: #4aaaa5;
+  color: white;
+  padding: 10px 30px;
+  font-size: 18px;
+
+}
