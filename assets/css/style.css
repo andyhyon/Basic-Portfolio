@@ -110,6 +110,9 @@ footer {
   background-color: #666666;
   border-top: solid 8px #4aaaa5;
   margin-bottom: 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
 
 #footer-text {
@@ -172,7 +175,7 @@ textarea {
   border: solid 1px #dbdbdb;
 }
 
-/* test comment */ 
+/* test comment */
 
 #form-message {
   padding: 0 0 300px 10px;
